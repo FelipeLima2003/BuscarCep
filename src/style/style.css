@@ -1,0 +1,146 @@
+@import url(./global.css);
+
+header{
+    display: flex;
+    gap: 425px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-white);
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+}
+
+.container-header ul {
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+
+.container-header ul li{
+    list-style: none;
+}
+
+.container-header ul li a{
+    text-decoration: none;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-button);
+    color: var(--color-black);
+}
+
+.btn-header{
+    padding: 12px 30px;
+    border-radius: 15px 3px 3px 15px;
+    background-color: var(--color-primary);
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    gap: 60px;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.details-main{
+  display: flex;
+  gap: 5px;
+  align-items: start;
+
+}
+
+.details-stars{
+    font-family: var(--font-primary);
+    color: #191C1F;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.content-main p{
+    font-family: var(--font-primary);
+    color: #191C1F;
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-button);
+    width: 499px;
+}
+.details-assessment{
+    font-family: var(--font-primary);
+    color: #5F6C72;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.details-price{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.price-descount{
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    font-weight: 600;
+    color:#2DA5F3;
+    font-family: var(--font-primary);
+}
+
+.price-original{
+    font-size: var(--font-size-body);
+    font-weight: 400;
+    color:#77878F;
+    font-family: var(--font-primary);
+    text-decoration: line-through;
+}
+
+.details-price-box{
+    padding: 5px 10px;
+    background-color: #EFD33D;
+    border-radius: 2px;
+    font-size: var(--font-size-body);
+    color:#191C1F;
+    font-weight: 900;
+    font-family: var(--font-primary);
+    
+}
+
+.details-color{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color:#191C1F;
+    font-weight: var(--font-weight-button);
+}
+
+.content-main nav{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-shopping{
+    padding: 12px 30px;
+    background-color: var(--color-primary);
+    text-decoration: none;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-black);
+    border-radius: 15px 3px 3px 15px;
+}
