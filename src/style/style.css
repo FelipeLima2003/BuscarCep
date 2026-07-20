@@ -144,3 +144,134 @@ header{
     color: var(--color-black);
     border-radius: 15px 3px 3px 15px;
 }
+
+.container-infos{
+    display: flex;
+    background: linear-gradient(to bottom, #B0CB1F, #58650F,0.1);
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    gap:50px
+}
+
+.container-form{
+    display: grid;
+    grid-template-columns: 249px 185px 249px;
+    gap: 16px;
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-black);
+    font-weight: var(--font-weight-button);
+  
+
+}
+
+.form-group input{
+    width: 249px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 11px 14px;
+  
+   
+}
+
+.form-group > .form-group-small{
+    width: 185px;
+    
+}
+
+.form-actions{
+    grid-column: 1 / -1; 
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.btn-enviar{
+    padding: 12px 30px;
+    background-color: var(--color-primary);
+    text-decoration: none;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-black);
+    border-radius: 15px 3px 3px 15px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    background-color: var(--color-white);
+    gap: 323px;
+}
+
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.footer-information p {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-black);
+    font-weight: var(--font-weight-button);
+}
+
+.footer-social{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-contacts-container{
+    display: flex;
+    gap: 60px;
+    align-items: start;
+
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer-contact h2{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-h4);
+    color: var(--color-black);
+    font-weight: var(--font-weight-h4);
+
+}
+.footer-contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.footer-contact ul li{
+    list-style: none;
+}
+
+.footer-contact ul li a{
+    text-decoration: none;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-black);
+    font-weight: var(--font-weight-button);
+}
+
