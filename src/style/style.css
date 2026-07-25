@@ -72,7 +72,7 @@ header{
     
 }
 
-.content-main p{
+.content-main h1{
     font-family: var(--font-primary);
     color: #191C1F;
     font-size: var(--font-size-body);
@@ -154,6 +154,12 @@ header{
     gap:50px
 }
 
+.container-infos h2{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-h4);
+    color: var(--color-black);
+    font-weight: var(--font-weight-h2);
+}
 .container-form{
     display: grid;
     grid-template-columns: 249px 185px 249px;
