@@ -147,7 +147,7 @@ header{
 
 .container-infos{
     display: flex;
-    background: linear-gradient(to bottom, #B0CB1F, #58650F,0.1);
+    background-color: #F3F5E8;
     flex-direction: column;
     align-items: center;
     padding: 60px;
@@ -156,7 +156,7 @@ header{
 
 .container-infos h2{
     font-family: var(--font-primary);
-    font-size: var(--font-size-h4);
+    font-size: var(--font-size-h2);
     color: var(--color-black);
     font-weight: var(--font-weight-h2);
 }
@@ -187,6 +187,10 @@ header{
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 11px 14px;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-black);
+    font-weight: var(--font-weight-button);
   
    
 }

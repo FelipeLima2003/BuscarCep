@@ -24,5 +24,9 @@ const buscarCep = (cepColocado) => {
 }
 
 cep.addEventListener("input", () =>{
-    buscarCep(cep.value);
+
+    if(cep.value.length == 9){
+        buscarCep(cep.value);
+    }
+
 } )
